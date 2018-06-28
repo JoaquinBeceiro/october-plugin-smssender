@@ -18,12 +18,7 @@ Send and receive messages programmatically through your phone using API service.
 -  Add **SMS_ACCESS_TOKEN** with your API token found in [Dashboard/settings](https://smsgateway.me/dashboard/settings) into env file.
 
 ## Usage
-Click on the toolbar button and manually insert your database credentials.
-
-## Security
-You need to be logged on October Backend to access Adminer.
-
-Also, you can give permissions to your backend users but remember, they are going to have access to the whole October database (or databases, depends on your db user privileges).
-
-## Future
-The plugin is fully functional but i'm open to suggestions/ideas.
+- Manualy in the Backend at SMSSender tab.
+- Programmatically by newSms method in Sms controller.
+    - Use Joaquin\Smssender\Controllers\Sms;
+    - Sms::newSms(to, msg) with destination number and message body as parameter.
