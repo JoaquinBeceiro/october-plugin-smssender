@@ -1,0 +1,4 @@
+1.0.1: First version of SMSSender
+1.0.2:
+    - Crete SMS table
+    - create_sms_table.php

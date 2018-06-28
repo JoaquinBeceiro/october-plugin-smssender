@@ -1,0 +1,21 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Sms
+
+# Model Form Field configuration
+form: $/joaquin/smssender/models/sms/fields.yaml
+
+# Model Class name
+modelClass: Joaquin\Smssender\Models\Sms
+
+# Default redirect location
+defaultRedirect: joaquin/smssender/sms
+
+# Create page
+create:
+    title: Create Sms
+    redirect: joaquin/smssender/sms/
+    redirectClose: joaquin/smssender/sms
