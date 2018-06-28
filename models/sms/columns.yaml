@@ -6,6 +6,7 @@ columns:
     id:
         label: ID
         searchable: true
+        width     : "1%"
     to:
         label   : To
         searchable: true
@@ -16,6 +17,6 @@ columns:
     sended:
         label : Sended
         type: partial
-        path      : ~/plugins/joaquin/smssender/models/sms/sms_sended.htm
+        path      : ~/plugins/joaquinb/smssender/models/sms/sms_sended.htm
         searchable : true
         width     : "1%"

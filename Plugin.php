@@ -18,7 +18,7 @@ class Plugin extends PluginBase
         return [
             'name'        => 'SMSSender',
             'description' => 'No description provided yet...',
-            'author'      => 'Joaquin',
+            'author'      => 'Joaquinb',
             'icon'        => 'icon-leaf'
         ];
     }
@@ -52,7 +52,7 @@ class Plugin extends PluginBase
     {
 
         return [
-            'Joaquin\SMSSender\Components\MyComponent' => 'myComponent',
+            'Joaquinb\SMSSender\Components\MyComponent' => 'myComponent',
         ];
     }
 
@@ -65,7 +65,7 @@ class Plugin extends PluginBase
     {
 
         return [
-            'joaquin.smssender.some_permission' => [
+            'joaquinb.smssender.some_permission' => [
                 'tab' => 'SMSSender',
                 'label' => 'Some permission'
             ],
@@ -83,9 +83,9 @@ class Plugin extends PluginBase
         return [
             'smssender' => [
                 'label'       => 'SMSSender',
-                'url'         => Backend::url('joaquin/smssender/sms'),
+                'url'         => Backend::url('joaquinb/smssender/sms'),
                 'icon'        => 'icon-envelope-o',
-                'permissions' => ['joaquin.smssender.*'],
+                'permissions' => ['joaquinb.smssender.*'],
                 'order'       => 500,
             ],
         ];
