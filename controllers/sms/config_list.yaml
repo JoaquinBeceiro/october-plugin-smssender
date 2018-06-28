@@ -3,10 +3,10 @@
 # ===================================
 
 # Model List Column configuration
-list: $/joaquin/smssender/models/sms/columns.yaml
+list: $/joaquinb/smssender/models/sms/columns.yaml
 
 # Model Class name
-modelClass: Joaquin\Smssender\Models\sms
+modelClass: Joaquinb\Smssender\Models\sms
 
 # List Title
 title: Manage Sms Controllers

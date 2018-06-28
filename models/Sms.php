@@ -1,7 +1,7 @@
-<?php namespace Joaquin\Smssender\Models;
+<?php namespace Joaquinb\Smssender\Models;
 
 use Model;
-use Joaquin\Smssender\Controllers\Sms as SmsController;
+use Joaquinb\Smssender\Controllers\Sms as SmsController;
 
 /**
  * Sms Model
@@ -11,7 +11,7 @@ class Sms extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'joaquin_smssender_sms';
+    public $table = 'joaquinb_smssender_sms';
 
     /**
      * @var array Guarded fields

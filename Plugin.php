@@ -1,4 +1,4 @@
-<?php namespace Joaquin\SMSSender;
+<?php namespace Joaquinb\SMSSender;
 
 use Backend;
 use System\Classes\PluginBase;

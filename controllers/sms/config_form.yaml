@@ -6,16 +6,16 @@
 name: Sms
 
 # Model Form Field configuration
-form: $/joaquin/smssender/models/sms/fields.yaml
+form: $/joaquinb/smssender/models/sms/fields.yaml
 
 # Model Class name
-modelClass: Joaquin\Smssender\Models\Sms
+modelClass: Joaquinb\Smssender\Models\Sms
 
 # Default redirect location
-defaultRedirect: joaquin/smssender/sms
+defaultRedirect: joaquinb/smssender/sms
 
 # Create page
 create:
     title: Create Sms
-    redirect: joaquin/smssender/sms/
-    redirectClose: joaquin/smssender/sms
+    redirect: joaquinb/smssender/sms/
+    redirectClose: joaquinb/smssender/sms

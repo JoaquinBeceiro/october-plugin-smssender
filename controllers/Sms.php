@@ -1,9 +1,9 @@
-<?php namespace Joaquin\Smssender\Controllers;
+<?php namespace Joaquinb\Smssender\Controllers;
 
 use BackendMenu;
 use Backend\Classes\Controller;
 use Queue;
-use Joaquin\Smssender\Models\Sms as SmsModel;
+use Joaquinb\Smssender\Models\Sms as SmsModel;
 
 /**
  * Sms Controller Back-end Controller
@@ -22,7 +22,7 @@ class Sms extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Joaquin.Smssender', 'smssender', 'sms');
+        BackendMenu::setContext('Joaquinb.Smssender', 'smssender', 'sms');
     }
 
     /**
@@ -33,7 +33,7 @@ class Sms extends Controller
         $data['to']     = $to;
         $data['msg']    = $msg;
 
-        Queue::push('\Joaquin\Smssender\Jobs\SendSMSJob', [
+        Queue::push('\Joaquinb\Smssender\Jobs\SendSMSJob', [
             'data'  => $data,
             'id'    => $id,
         ], 'sms');

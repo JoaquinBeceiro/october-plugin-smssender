@@ -1,6 +1,6 @@
 <?php Block::put('breadcrumb') ?>
     <ul>
-        <li><a href="<?= Backend::url('joaquin/smssender/sms') ?>">Sms Controller</a></li>
+        <li><a href="<?= Backend::url('joaquinb/smssender/sms') ?>">Sms Controller</a></li>
         <li><?= e($this->pageTitle) ?></li>
     </ul>
 <?php Block::endPut() ?>
@@ -33,7 +33,7 @@
                     Create and Close
                 </button>
                 <span class="btn-text">
-                    or <a href="<?= Backend::url('joaquin/smssender/sms') ?>">Cancel</a>
+                    or <a href="<?= Backend::url('joaquinb/smssender/sms') ?>">Cancel</a>
                 </span>
             </div>
         </div>
@@ -43,6 +43,6 @@
 <?php else: ?>
 
     <p class="flash-message static error"><?= e($this->fatalError) ?></p>
-    <p><a href="<?= Backend::url('joaquin/smssender/sms') ?>" class="btn btn-default">Return to sms controller list</a></p>
+    <p><a href="<?= Backend::url('joaquinb/smssender/sms') ?>" class="btn btn-default">Return to sms controller list</a></p>
 
 <?php endif ?>

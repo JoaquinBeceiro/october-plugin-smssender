@@ -1,8 +1,8 @@
 <?php
 
-namespace Joaquin\Smssender\Jobs;
+namespace Joaquinb\Smssender\Jobs;
 
-use Joaquin\Smssender\Models\Sms; 
+use Joaquinb\Smssender\Models\Sms; 
 use Illuminate\Http\Request;
 use SMSGatewayMe\Client\ApiClient;
 use SMSGatewayMe\Client\Configuration;

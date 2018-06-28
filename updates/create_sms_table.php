@@ -1,4 +1,4 @@
-<?php namespace Joaquin\Smssender\Updates;
+<?php namespace Joaquinb\Smssender\Updates;
 
 use Schema;
 use October\Rain\Database\Schema\Blueprint;
@@ -8,7 +8,7 @@ class CreateSmsTable extends Migration
 {
     public function up()
     {
-        Schema::create('joaquin_smssender_sms', function(Blueprint $table) {
+        Schema::create('joaquinb_smssender_sms', function(Blueprint $table) {
             $table->increments('id');
             $table->string('to');
             $table->longText('body');
@@ -19,6 +19,6 @@ class CreateSmsTable extends Migration
 
     public function down()
     {
-        Schema::dropIfExists('joaquin_smssender_sms');
+        Schema::dropIfExists('joaquinb_smssender_sms');
     }
 }
