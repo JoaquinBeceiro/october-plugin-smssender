@@ -6,7 +6,7 @@
 list: $/joaquinb/smssender/models/sms/columns.yaml
 
 # Model Class name
-modelClass: Joaquinb\Smssender\Models\sms
+modelClass: Joaquinb\Smssender\Models\Sms
 
 # List Title
 title: Manage Sms Controllers
